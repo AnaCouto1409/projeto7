@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body{
+    font-size: 20px;
+}
+#navmenu ul{
+    list-style: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+#menu-h {
+    list-style: none;
+    padding: 0%;
+    display: block;
+    background-color: #f08080, #ff1493, #f7d40e, #69bad3 10px;
+    text-justify: justify;
+}
+#menu-h ul {
+    max-width: 600px;
+    list-style: none;
+    padding: 0;
+    background-color: cadetblue;
+}
+#menu-h li{
+    display: inline;
+    padding: 50px;
+    font-size: 20px;
+    margin: 10px;
+}
+#menu-h li a {
+    display: inline-block;
+    outline: none;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#menu-h li a:hover {
+    color: blanchedalmond;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu-h ul li a:hover {
+    text-decoration: none;
+}
+#menu-h ul li:last-child a {
+    float: left;
+}
+#figure.class img {
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-right: 10%;}
+
+/*BOTÃO*/
+    .btn {
+border-radius: 1REM;
+text-transform: uppercase;
+font-size: 0,5rem;
+}
+
+.btn-roxo{
+    color:#7E459B;  
+    border: 2px solid;
+    padding: 0.6rem 1.5rem;
+}
+table{
+    width: 50%;
+    border: 10%;
+    border-color: #7E459B;
+    background-color: lightseagreen;
+}
+#menu {
+    display: inline-block;
+}
+#menu1 {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+}
+#menu2 {
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+}
+#section{
+    display: inline-block;
+}
+#div{
+    display: inline-block;
+}
+#section div a {
+    display: inline-block;
+}
+.div > h3 {
+    display: block;
+}
+div :hover {
+color: #7E459B;
+}
+div ::after{
+    content: url(file:///C:/Users/aninh/OneDrive/%C3%81rea%20de%20Trabalho/test3.html);
+    text-decoration: none;
+    font-weight: normal;
+    color: #7E459B;
+}
+#footer{
+    text-align: justify;
+    color: #7E459B;
+    font-style: normal;
+}
+#footer-top-full{
+    color: #7E459B;
+    font-weight: lighter;
+    padding: 0.1rem 0;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+#toast-container{
+    font-size: 30px;
+    color: #7e459b;
+}
+footer.class{
+    font-size: 1rem;
+    color: #7E459B;
+}
+
+
+    
